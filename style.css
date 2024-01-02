@@ -35,7 +35,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 100px;
-  flex-wrap: wrap;
   top: 10px;
 }
 
@@ -51,6 +50,8 @@ nav button {
   z-index: 10;
 }
 
+
+
 .hero {
   height: 100%;
   display: flex;
@@ -63,7 +64,6 @@ nav button {
   padding: 5px;
   position: relative;
   font-family: "Martel Sans", sans-serif;
-  /* overflow: none; */
 }
 
 .hero span:first-child {
@@ -156,6 +156,7 @@ nav button {
   background-color: rgba(23, 32, 32, 0.4);
 }
 
+
 .first {
   display: flex;
   justify-content: center;
@@ -166,6 +167,7 @@ nav button {
   align-items: center;
   position: relative;
 }
+
 
 .secimg {
   position: relative;
@@ -179,10 +181,10 @@ nav button {
 
 .secimg video {
   position: absolute;
-  top: 75px;
-  left: 65px;
+  top: 90px;
+  left: 95px;
   right: 30px;
-  width: 490px;
+  width: 470px;
 }
 
 
@@ -208,6 +210,106 @@ section.first > div {
   /* position: relative; */
   top: 65px;
   left: 120px;
+}
+
+@media screen and (max-width: 870px) {
+
+
+  
+  nav {
+    max-width: 75vw;
+    height: 50px;
+    flex-wrap: wrap;
+  }
+  
+  nav img {
+    width: 80px;
+  }
+  
+  
+  .hero span:first-child {
+    font-size: 28px;
+  }
+  
+  .hero span:nth-child(2) {
+    font-size: 15px;
+  }
+  
+  .hero span:nth-child(3) {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+  
+  
+  .btn {
+    padding: 4px 16px;
+    font-size: 8px;
+    margin-right: 8px;
+  }
+  
+  .btn-red-sm {
+    padding: 4px 16px 4px 16px;
+    height: 20px;
+    min-height: 16px;
+  }
+  
+  .btn-red {
+    min-height: 28px;
+    height: 28px;
+    width: 102px;
+    font-size: 10px;
+  }
+  
+
+  .e-box /* .main input */ {
+    height: 12px;
+    width: 162px
+  }
+  
+  .first{
+    flex-wrap: wrap;
+    max-width: 500px;
+    padding: 15px;
+  }
+
+  .secimg img {
+    position: relative;
+    width: 350px;
+    z-index: 10;
+  }
+  
+  .secimg video {
+    position: absolute;
+    top: 58px;
+    left: 63px;
+    /* right: 16px; */
+    width: 294px;
+  }
+
+
+  section.first > div {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+  
+  .first > div :first-child {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  .first > div :nth-child(2) {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  #tvideo {
+    width: 59%;
+    right: 90px;
+    /* position: relative; */
+    top: 38px;
+    left: 80px;
+  }
 }
 
 .faq {
@@ -278,6 +380,17 @@ footer .que {
 }
 
 @media screen and (max-width: 1200px) {
+  
+  .faq h1
+  {
+    font-size: 27px;
+  }
+
+  .faqbox{
+    font-size: 15px;
+  }
+  
+  
   .footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
