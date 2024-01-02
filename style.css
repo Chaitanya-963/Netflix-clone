@@ -197,3 +197,39 @@ section.first > div {
   /* position: relative; */
   top: 38px;
 }
+
+.faq{
+  background-color: black;
+  color: white;
+  /* padding: 32px; */
+  text-align: center;
+  
+}
+
+.faq h1
+{
+  margin: 25px 0px 25px 0px;
+  font-weight: 900;
+  font-size: 48px;
+}
+.faqbox:hover
+{
+background-color: rgb(69, 65, 65);
+}
+.faqbox
+{
+  transition: all 1s ease-out;
+  display: flex;
+  background-color: rgba(35, 36, 38, 0.9);
+  padding: 25px;
+  margin: 12px auto;
+  font-size: 24px;
+  width: 72vw;
+  justify-content: space-between;
+}
+
+.faqbox svg
+{
+ filter: invert(1);
+ 
+}
