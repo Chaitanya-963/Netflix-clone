@@ -1,4 +1,4 @@
-# Netflix-clone
+# Netflix- UI clone
 HTML5 and CSS3 clone of Netflix that uses media queries for responsive design! 👩‍💻💻
 
 💡 Highlights:
